@@ -1,0 +1,206 @@
+html {
+  height: 100%;
+  width: 100%;
+  font-family:  san-serif, helvetica;
+  color: #292f36;
+  background: rgb(191,197,213);
+
+  text-shadow: 0 5px 7px #7c8ea3;
+  
+background: linear-gradient(90deg, rgba(191,197,213,1) 0%, rgba(243,246,252,1) 52%, rgba(191,197,213,1) 100%);
+}
+
+a {
+    color: #292f36;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 20% auto;
+  justify-items: center;
+  align-items: center;
+}
+
+#header {
+  margin: 0 ;
+  padding: 0;
+  text-align: center;
+}
+
+#heading {
+  margin: 20px;
+}
+
+/* Styling for the sections (divs) */
+.container {
+  margin: 0 auto;
+    
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+
+  justify-items: center;
+  align-items: center;
+}
+
+.section {
+  height: 300px;
+  width: 300px;
+  margin: 20px;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px #7c8ea3;
+
+  color: #fff;
+}
+
+.section:hover {
+  box-shadow: 0 5px 15px #7c8ea3, 0 0 10px white inset, 0 0 50px #fff inset;
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+#tab_1 {
+  background-image: linear-gradient(to bottom right, #031544, #1c3ca1);
+  overflow: hidden;
+}
+
+#background_1 {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 20px;
+  background-image: url('icons/spinal_cord.png');
+  background-size: cover;
+  
+}
+
+#tab_2 {
+  background: linear-gradient(to top right, #1c3ca1, #5b4c97);
+  overflow: hidden;
+}
+
+#background_2 {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 20px;
+  background-image: url('icons/nuclei.png');
+  background-size: cover;
+  
+}
+
+
+#tab_3 {
+  background: linear-gradient(to bottom right, #5b4c97, #bd6267);
+  overflow: hidden;
+}
+
+#background_3 {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 20px;
+  background-image: url('icons/tracts.png');
+  background-size: cover;
+  
+}
+
+#tab_4 {
+  background: linear-gradient(to top right, #031544, #1c3ca1);
+  overflow: hidden;
+}
+
+#background_4 {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 20px;
+  background-image: url('icons/cerebellum.png');
+  background-size: cover;
+  
+}
+
+#tab_5 {
+  background: linear-gradient(to bottom right,#1c3ca1, #5b4c97);
+  overflow: hidden;
+}
+
+#background_5 {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 20px;
+  background-image: url('icons/white.png');
+  background-size: cover;
+  
+}
+
+#tab_6 {
+  background: linear-gradient(to top right, #5b4c97, #bd6267);
+  overflow: hidden;
+}
+
+#background_6 {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 20px;
+  background-image: url('icons/grey.png');
+  background-size: cover;
+  
+}
+
+#tab_7 {
+  background-image: linear-gradient(to bottom right, #031544, #1c3ca1);
+  overflow: hidden;
+}
+
+#background_7 {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 20px;
+  background-image: url('icons/special.png');
+  background-size: cover;
+    
+}
+
+#tab_8 {
+  background: linear-gradient(to top right, #1c3ca1, #5b4c97);
+  overflow: hidden;
+}
+
+#background_8 {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 20px;
+  background-image: url('icons/basal.png');
+  background-size: cover;
+  
+}
+
+#tab_9 {
+  background:  linear-gradient(to bottom right, #5b4c97, #bd6267);
+  overflow: hidden;
+}
+
+#background_9 {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0%;
+  background-image: url('icons/smile.png');
+  background-size: cover;
+  
+}
+

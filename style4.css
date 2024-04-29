@@ -1,0 +1,139 @@
+html {
+  height: 100%;
+  width: 100%;
+  font-family: optima, san-serif, helvetica;
+  color: #292f36;
+  background: rgb(191,197,213);
+
+  text-shadow: 0 5px 7px #7c8ea3;
+  text-align: center;
+  
+background: linear-gradient(90deg, rgba(191,197,213,1) 0%, rgba(243,246,252,1) 52%, rgba(191,197,213,1) 100%);
+}
+
+a {
+    color: #292f36;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  display:grid;
+
+  grid-template-columns: 1fr;
+  grid-template-rows: 20% 80%;
+}
+
+.heading{
+  justify-self: center;
+  align-self: center;
+}
+
+.gallery-container {
+  height: 70vh;
+  display: grid;
+  grid-template-columns: auto 15%;
+  grid-template-rows:auto;
+}
+
+.gallery {
+
+  background-image: linear-gradient(to bottom right, #031544, #292f36);
+
+  border-radius: 10px;
+  margin: 5px ;
+  padding: 10px;
+  
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+}
+
+.image {
+  height:70vh;
+  object-fit: cover;
+  display: flex;
+  margin: 10px;
+  justify-self: center;
+  align-self: center;
+}
+
+#image1 {
+  grid-area: 1/1/span 1/span 1;
+  z-index: 1;
+}
+
+#image2{
+  grid-area: 1/1/span 1/span 1;
+  z-index: 2;
+}
+
+#image3 {
+  grid-area: 1/1/span 1/span 1;
+  z-index: 3;
+}
+
+#image4{
+  grid-area: 1/1/span 1/span 1;
+  z-index: 4;
+}
+
+#image5{
+  grid-area: 1/1/span 1/span 1;
+  z-index: 5;
+}
+
+#image6{
+  grid-area: 1/1/span 1/span 1;
+  z-index: 6;
+}
+
+#image7{
+  grid-area: 1/1/span 1/span 1;
+  z-index: 7;
+}
+
+#image8{
+  grid-area: 1/1/span 1/span 1;
+  z-index: 8;
+}
+
+.image-toggles {
+
+  background-image: linear-gradient(to bottom right, #031544, #292f36);
+  border-radius: 10px;
+  margin: 5px;
+  display: grid;
+
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+}
+
+.image-toggle {
+  background-color: rgba(255,255,255,0.5);
+  cursor: pointer;
+  padding: 5px 10px;
+  margin: 20px auto;
+
+  justify-self: center;
+  align-self: center;
+  
+  border-radius: 5px;
+  color: #fff;
+}
+
+.image-toggle:hover {
+  background-color: rgba(0,255,255,0.5);
+  box-shadow: 0 0 10px cyan;
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.image-toggle:active {
+  background-color: rgba(0,255,255,0.2);
+  transform: scale(0.9);
+  transition: 0.5s;
+}
